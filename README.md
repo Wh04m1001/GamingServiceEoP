@@ -1,5 +1,7 @@
 # GamingServiceEoP
 Exploit for arbitrary folder move in GamingService component of Xbox.
+GamingService is not default service.
+If service is installed on system it allows low privilege users to escalate to system.
 
 During the process of changing directory the Gaming Services service will try to open C:\XboxGames\GameSave\Content\MicrosoftGame.Config file, if the file exists the gaming service will try to move whole C:\XboxGames\GameSave folder. It does that by calling MoveFileW API call while impersonating calling user.
 
@@ -15,3 +17,9 @@ The time window is small but can be incresed by creating multiple .tmp_ +digit f
 
 The exploit abuse spooler service to load arbitrary DLL as system
 
+PoC
+![video](https://github.com/Wh04m1001/GamingServiceEoP/blob/main/poc2.mp4)
+
+MSRC stating no security boundry is crossed
+
+![image](https://github.com/Wh04m1001/GamingServiceEoP/blob/main/msrc.png)
