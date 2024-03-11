@@ -18,7 +18,8 @@ The time window is small but can be incresed by creating multiple .tmp_ +digit f
 The exploit abuse spooler service to load arbitrary DLL as system
 
 PoC
-![video](https://github.com/Wh04m1001/GamingServiceEoP/blob/main/poc2.mp4)
+
+
 
 MSRC stating no security boundry is crossed
 
