@@ -28,3 +28,7 @@ https://github.com/Wh04m1001/GamingServiceEoP/assets/44291883/7b33134d-cb1f-415c
 MSRC stating no security boundry is crossed
 
 ![image](https://github.com/Wh04m1001/GamingServiceEoP/blob/main/msrc.png)
+
+# Update
+Microsoft fixed this vulnerability 
+https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-28916
